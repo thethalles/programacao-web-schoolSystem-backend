@@ -6,8 +6,10 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
 @Entity //Notação para indicar que a classe é uma entidade
+@Table(name = "TBL_STUDENT")
 public class Student implements Serializable {
 
     @Id //Notação para indicar que o id é a chave primária
