@@ -9,7 +9,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity //Notação para indicar que a classe é uma entidade
-@Table(name = "TBL_STUDENT")
+@Table(name = "TBL_STUDENT") //Notação para indicar o nome da tabela no banco de dados
 public class Student implements Serializable {
 
     @Id //Notação para indicar que o id é a chave primária
