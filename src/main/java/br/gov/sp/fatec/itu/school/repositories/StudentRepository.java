@@ -4,6 +4,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import br.gov.sp.fatec.itu.school.entities.Student;
 
-public interface StudentRepository extends JpaRepository<Student, Long>{
+public interface StudentRepository extends JpaRepository<Student, Long>{ //Dispensa a programação utilizando scripts SQL
     
 }

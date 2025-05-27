@@ -17,7 +17,7 @@ import br.gov.sp.fatec.itu.school.services.StudentService;
 @RequestMapping("students") //Define o caminho base para as requisições HTTP
 public class StudentController {
     
-    @Autowired //Chamada da classe StudentService
+    @Autowired //Injeção de Dependencias
     private StudentService service;
 
     @GetMapping
